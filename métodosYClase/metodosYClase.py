@@ -148,5 +148,20 @@ c = Coche()
 print("Motor es ", c.motor.tipo)    
 print("Ventanas: ",c.carroceria.ventanas.cantidad)    
 c.carroceria.ventanas.cambiarCantidad(2)
-print("Ventanas: ",c.carroceria.ventanas.cantidad)    
-                      
+print("Ventanas: ",c.carroceria.ventanas.cantidad)     
+#------#
+class Categorias:
+    idCategoria = 0
+    nombre = ""
+class Proveedores:
+    idProveedor = 0
+    nombre = 0
+class Productos:
+    idProducto = 0
+    categoriaDeProducto = Categorias()
+    precio = 0
+    tamaño = 0
+    tipoDeProducto = 0
+    cifProveedor = Proveedores()      
+p = Productos()
+p.cifProveedor.nombre                    
